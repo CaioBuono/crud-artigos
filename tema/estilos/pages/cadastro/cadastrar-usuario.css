@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&display=swap');
+
+.boxPrincipalCadastrar{
+  background-color: #F2F4F7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxFormCadastrarUsuario{
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 21px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+}
+
+.sessaoCadastrarUsuario{
+  max-width: 304px;
+  width: 100%;
+}
+
+.boxFormCadastrarUsuario form{
+  max-width: 330px;
+  width: 100%;
+}
+
+.boxFormCadastrarUsuario input[type="text"],
+.boxFormCadastrarUsuario input[type="email"]{
+  margin-bottom: 10px;
+}
+
+.boxFormCadastrarUsuario input{
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 12px;
+  border: 1px solid #dddfe2;
+  max-width: 330px;
+  width: 100%;
+}
+
+.boxSenhaUsuario{
+  margin-bottom: 10px;
+}
+
+.boxNivelUsuario span{ 
+  margin-left: 4px;
+}
+
+.boxSelecaoNivel select{
+  max-width: 330px;
+  width: 100%;
+  border: 1px solid #dddfe2;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.boxFormCadastrarUsuario h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.boxTituloPagina h1{
+  text-align: center;
+  font-family: 'Playwrite NO', sans-serif;
+  margin-bottom: 12px;
+}
+
+.boxBotaoCadastrar{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.boxBotaoCadastrar button{
+  background-color: #42b72a;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 16px;
+  max-width: 200px;
+  width: 100%;
+  margin-top: 13px;
+}
+
+.boxBotaoCadastrar button:hover{
+  background-color: #35aa1d;
+}
+
+.boxSkillsUsuario span{
+  margin-left: 4px;
+}
+
+.boxInputSkill input{
+  margin: 0;
+  width: 210px;
+  margin-right: 6px;
+}
+
+.boxInputSkill button{
+  background-color: #42b72a;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 16px;
+  margin-top: 13px;
+}
+
+.boxInputSkill button:hover{
+  background-color: #35aa1d;
+}
+
+#boxSkills{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background: #e5e5e5;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.boxVoltarAcesso{
+  margin-top: 12px;
+  text-align: center;
+}
+
+.boxVoltarAcesso a{
+  color: #087fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.boxErroCadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.boxMensagemErro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+  width: 100%;
+  background-color: #e74b36;
+  border-radius: 2px;
+  padding: 0 8px;
+  color: #FFFFFF;
+}

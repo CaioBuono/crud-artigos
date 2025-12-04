@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&display=swap');
+
+.boxPrincipalLogin{
+  background-color: #F2F4F7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxLogin{
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+  padding: 35px;
+}
+
+.boxAcessoUsuario input{
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  max-width: 330px;
+  width: 100%;
+}
+
+.boxAcessoUsuario{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxBotaoLogin{
+  display: flex;
+  justify-content: center;
+}
+
+.boxBotaoLogin button{
+  background-color: #42b72a;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 16px;
+  max-width: 330px;
+  width: 100%;
+}
+
+.boxBotaoLogin button:hover{
+  background-color: #35aa1d;
+}
+
+.boxLoginLayout{
+  width: 350px;
+}
+
+.boxResetSenha{
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.boxResetSenha a{
+  color: #086fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.boxCriarNovaConta{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxCriarNovaConta button{
+  background-color: #3d3c3c;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 16px;
+  max-width: 200px;
+  width: 100%;
+  margin-top: 13px;
+}
+
+.boxCriarNovaConta button:hover{
+  background-color: #272727;
+}
+
+.boxCriarNovaConta a{
+  display: block;
+}
+
+.boxIntroPaginaLogin{
+  max-width: 400px;
+  width: 100%;
+}
+
+.boxTituloPaginaLogin{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.boxTituloPaginaLogin h1{
+  font-family: 'Playwrite NO', sans-serif;
+}
+
+.boxInfoPaginaLogin{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 400px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.boxRetornoLogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: #e74b36;
+  margin-bottom: 12px;
+  color: #FFFFFF;
+  font-weight: 500;
+  max-width: 290px;
+  width: 100%;
+  margin-left: 18px;
+  border-radius: 2px;
+}
+
+
+
+@media screen and (max-width: 350px){
+  .boxLoginLayout{
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  .boxRetornoLogin{
+    margin-left: 0;
+  }
+}

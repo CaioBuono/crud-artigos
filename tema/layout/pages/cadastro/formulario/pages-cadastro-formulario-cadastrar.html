@@ -1,0 +1,63 @@
+<div class="boxCadastrarUsuario">
+  <div class="boxCadastrarUsuarioLayout">
+    <div class="boxTituloPagina">
+      <h1>Articles</h1>
+    </div>
+
+    <div class="boxFormCadastrarUsuario">
+      <form action="" method="post">
+        <h3>Cadastrar desenvolvedor</h3>
+
+        {{boxErroCadastro}}
+
+        <div class="boxNomeUsuario">
+          <input type="text" name="nome" placeholder="Nome" required/>
+        </div>
+
+        <div class="boxEmailUsuario">
+          <input type="email" name="email" placeholder="Email" required/>
+        </div>
+
+        <div class="boxSenhaUsuario">
+          <input type="password" name="senha" placeholder="Senha" required/>
+        </div>
+
+        <div class="boxNivelUsuario">
+          <span>Nível de senioridade</span>
+        </div>
+
+        <div class="boxSelecaoNivel">
+          <select name="nivel" required>
+            <option value="">Selecione uma opçao</option>
+            <option value="jr">Júnior</option>
+            <option value="pl">Pleno</option>
+            <option value="sr">Sênior</option>
+          </select>
+        </div>
+
+        
+
+        <div class="boxSkillsUsuario">
+          <div class="boxInputSkill">
+            <input type="text" id="inputSkill" placeholder="Digite uma skill">
+            <button type="button" id="btnAdicionarSkill" title="Clique para adicionar">+</button>
+          </div>
+          
+          <div id="boxSkills"></div>
+          
+          <input type="hidden" name="skills" id="inputSkillsHidden">
+        </div>
+
+        <div class="boxBotaoCadastrar">
+          <button type="submit" name="btnCadastrarUsuario">Cadastrar</button>
+        </div>
+
+        <div class="boxVoltarAcesso">
+          <a href="/acesso.php">Já tenho uma conta</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="/tema/js/cadastro/cadastro-usuario.js"></script>
