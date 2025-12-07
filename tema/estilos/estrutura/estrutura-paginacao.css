@@ -1,0 +1,30 @@
+.boxPaginacao{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.paginacaoItem{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.paginacaoItem span{
+  margin-top: 8px;
+  color: #686868;
+}
+
+.numeroPagina{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #686868;
+}
+
+.numeroPagina.selecionado{
+  background-color: #147FEC;
+  color: #FFFFFF;
+}

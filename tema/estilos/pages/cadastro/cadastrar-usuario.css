@@ -146,7 +146,7 @@
 }
 
 .boxVoltarAcesso a{
-  color: #087fff;
+  color: var(--corPrimariaLink);
   font-size: 14px;
   font-weight: 500;
 }

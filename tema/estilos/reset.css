@@ -7,6 +7,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+  --corPrimariaLink: #137fec;
+}
+
 html, body, #root {
   height: 100%;
 }
