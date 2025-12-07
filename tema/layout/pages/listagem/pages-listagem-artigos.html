@@ -1,0 +1,23 @@
+<main id="boxListagemPrincipal">
+  <div class="boxTituloPublicacoes">
+    <h1>Publicações Recentes</h1>
+  </div>
+
+  <div class="boxConteudoPesquisaLayout">
+    <div class="boxFiltroPesquisa">
+      <div class="boxConteudoPesquisa">
+        <span class="material-icons btnPesquisar">search</span>
+      </div>
+  
+      <input type="text" name="busca" id="" placeholder="Pesquisar por palavra-chave..." />
+    </div>
+  </div>
+
+  <div class="boxListagemArtigos">
+    {{retornoArtigos}}
+  </div>
+
+  {{paginacao}}
+</main>
+
+<script src="/tema/js/listagem/listagem-artigos.js"></script>

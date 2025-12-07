@@ -4,30 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/tema/estilos/reset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/tema/estilos/estrutura/estrutura-header.css">
+  <link rel="stylesheet" href="/tema/estilos/pages/listagem/listagem-artigos.css">
+  <link rel="stylesheet" href="/tema/estilos/estrutura/estrutura-paginacao.css">
   <title>{{titleHead}}</title>
 </head>
 <body>
-  <header>
-    <div class="boxLogoAplicacao">
-      <h3>Article</h3>
-    </div>
+  <div class="boxConteudo">
+    <div class="boxConteudoLayout">
+      <header id="boxHeaderAplicacao">
+        <div class="boxLogoAplicacao">
+          <h3>Articles</h3>
+        </div>
+        
+        <div class="boxNavPerfil">
+          <div class="boxNavegacao">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Inicio</a>
+                </li>
+                <li>
+                  <a href="#">Categorias</a>
+                </li>
+                <li>
+                  <a href="#">Sobre</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
     
-    <div class="boxNavPerfil">
-      <div class="boxNavegacao">
-        <nav>
-          <ul>
-            <li>Inicio</li>
-            <li>Categorias</li>
-            <li>Sobre</li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="boxImagemPerfil">
-        <img src="" alt="Perfil">
-      </div>
+          <div class="boxImagemPerfil">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxR7zN9lq9DfhVzoGIG_pUpFcwCTiCwthyxr8UZIims-1LsiKz4d0Yl7jvBXB6nu-JZK_tPzdzEedoWleVELp1cWmJWwPjWJb3HfY85Ue2S8yD8GEVwJKxPzxkZvhg0YPUknnjxWAGtPyy7PVTHUEMsmGGhwxsviLZFPAcD0WWELVCsrAPnKR6e77j8-33mIuJ0NtzTFX_zkv1A-QkEaEsmtQPJAABqZtBFAEgiVbwIKQJ2StAkffZfhuFUq3VcPk7rQ1wtGGF5H3u" alt="Perfil">
+          </div>
+        </div>
+      </header>
+      {{conteudo}}
     </div>
-  </header>
-
-  {{conteudo}}
+  </div>
   

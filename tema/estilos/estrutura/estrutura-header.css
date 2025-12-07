@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&display=swap');
+
+body{
+  background-color: #F2F4F7;
+}
+
+.boxConteudo{
+  display: flex;
+  justify-content: center;
+}
+
+.boxConteudoLayout{
+  max-width: 960px;
+  width: 100%;
+}
+
+#boxHeaderAplicacao{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px #00000010,0 8px 16px #00000006;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding: 0.75rem 40px;
+  border-radius: 4px;
+}
+
+.boxLogoAplicacao h3{
+  font-family: 'Playwrite NO', sans-serif;
+  cursor: pointer;
+}
+
+.boxNavPerfil{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.boxNavPerfil nav ul{
+  display: flex;
+  gap: 25px;
+}
+
+.boxImagemPerfil{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.boxImagemPerfil img{
+  border-radius: 9999px;
+}
